@@ -1,0 +1,54 @@
+body {
+    margin: 0vh;
+}
+
+
+
+header{
+    display: flex;
+    /* background-color: aqua; */
+    height: 10vh;
+    padding: 1vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 10vh;
+    width: 10vh;
+    background-color: gold;
+    border-radius: 10vh;
+    margin-left: 2vh;
+}
+
+.headers_buttons{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    justify-content: space-around;
+    margin-right: 3vh;
+    position: fix;
+
+    
+    
+
+}
+
+.header_button{
+    color: gold;
+    padding: 3vh;
+    border-radius: 5px;
+
+    transition-delay: 50ms;
+    transition: linear;
+    
+}
+
+.header_button:hover{
+    color: rgb(252, 247, 237);
+    padding: 3vh;
+    background-color: gold;
+    border-radius: 5px;
+
+}
