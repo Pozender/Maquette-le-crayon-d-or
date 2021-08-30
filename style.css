@@ -1,3 +1,8 @@
+html{
+    /* scroll-behavior: smooth; */
+}
+
+
 body {
     margin: 0vh;
     background-color: rgb(255, 254, 249);
@@ -8,18 +13,18 @@ body {
 header{
     display: flex;
     /* background-color: aqua; */
-    height: 10vh;
+    height: 15vh;
     padding: 1vh;
     align-items: center;
     justify-content: space-between;
 }
 
-#logo{
-    height: 10vh;
-    width: 10vh;
-    background-color: gold;
-    border-radius: 10vh;
-    margin-left: 2vh;
+
+
+#logotrue{
+    width: 12vh;
+    margin-left: 3vh;
+    
 }
 
 .headers_buttons{
@@ -38,21 +43,21 @@ header{
 }
 
 .header_button{
-    color: gold;
+    color: #f5f092;
+    text-align: center;
     padding: 3vh;
     border-radius: 5px;
     background-color: rgb(255, 254, 249);
     border:0px;
     font-size: 20px;
-    transition-delay: 50ms;
-    transition: linear;
     
 }
 
 .header_button:hover{
+    text-align: center;
     color: rgb(255, 254, 249);
     padding: 3vh;
-    background-color: gold;
+    background-color: #f5f092;
     border-radius: 5px;
 
 }
@@ -84,3 +89,5 @@ header{
 a{
     text-decoration: none;
 }
+
+
