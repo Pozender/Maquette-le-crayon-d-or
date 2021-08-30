@@ -1,5 +1,6 @@
 body {
     margin: 0vh;
+    background-color: rgb(255, 254, 249);
 }
 
 
@@ -24,6 +25,7 @@ header{
 .headers_buttons{
     font-size: 20px;
     display: flex;
+    
     flex-direction: row;
     width: 100vh;
     justify-content: space-around;
@@ -39,16 +41,42 @@ header{
     color: gold;
     padding: 3vh;
     border-radius: 5px;
-
+    background-color: rgb(255, 254, 249);
+    border:0px;
+    font-size: 20px;
     transition-delay: 50ms;
     transition: linear;
     
 }
 
 .header_button:hover{
-    color: rgb(252, 247, 237);
+    color: rgb(255, 254, 249);
     padding: 3vh;
     background-color: gold;
     border-radius: 5px;
 
+}
+
+
+.blocks{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+}
+.block{
+    height: 100vh;
+    
+}
+#b1{
+    background-color: aqua;
+}
+#b2{
+    background-color: black;
+}
+#b3{
+    background-color: burlywood;
+}
+
+a{
+    text-decoration: none;
 }
