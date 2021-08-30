@@ -75,6 +75,11 @@ header{
 }
 #b1{
     background-image: url("/ressources/Background\ img-01.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    background-position-x: 10vh;
+
 }
 #b2{
     background-color: black;
