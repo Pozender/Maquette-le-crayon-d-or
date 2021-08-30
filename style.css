@@ -66,17 +66,21 @@ header{
 .block{
     height: 100vh;
     
+    
 }
 #b1{
     background-color: aqua;
 }
 #b2{
     background-color: black;
+    color: rgb(255, 254, 249);
 }
 #b3{
-    background-color: burlywood;
+    background-color:burlywood;
 }
-
+#b4{
+    height: 30vh;
+}
 a{
     text-decoration: none;
 }
