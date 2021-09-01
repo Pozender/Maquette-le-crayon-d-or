@@ -25,16 +25,24 @@
     <div class="blocks">
 
         <div class="block" id="b1">
-            <h1>Accueil</h1>
+            <h1 class="titre">Accueil</h1>
         </div>
         <div class="block" id="b2">
-            <h1>Nos Services</h1>
+            <h1 class="titre">Nos Services</h1>
         </div>
         <div class="block" id="b3">
-            <h1>Qui sommes nous ?</h1>
+            <h1 class="titre">Qui sommes nous ?</h1>
         </div>
         <div class="block" id="b4">
-            <h1>Contact</h1>
+            <h1 class="titre">Contact</h1>
+
+            <form action="https://formsubmit.co/agencelecrayondor@gmail.com" method="POST" class="formulaire">
+                <input type="text" name="prenom" id="prenom" class="champ" placeholder="Prénom (obligatoire)">
+                <input type="text" name="nom" id="nom" class="champ" placeholder="Nom (obligatoire)">
+                <input type="email" name="email" id="email" class="champ" placeholder="Adresse email (obligatoire)">
+                <textarea name="projet" id="projet" class="champ" cols="30" rows="10" placeholder="Décrivez votre projet et quelle services vous désirez pour celui-ci"></textarea>
+                <input type="submit" value="Envoyer" id="envoyer">
+            </form>
         </div>
     </div>
     
