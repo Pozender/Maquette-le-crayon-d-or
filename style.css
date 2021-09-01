@@ -133,3 +133,24 @@ a{
 #envoyer:hover{
     background-color: rgb(245, 218, 66);
 }
+
+.thanxblock{
+    display: flex;
+    background-color: rgb(219, 218, 210);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    width: 80vh;
+    padding: 3vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#revenirausite{
+    border: none;
+    border-radius: 5px;
+    padding: 3vh;
+    background-color: rgb(248, 241, 114);
+    color: rgb(255, 254, 249);
+    font-size: 15px;
+}
