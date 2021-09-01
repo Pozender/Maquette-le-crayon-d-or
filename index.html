@@ -37,9 +37,10 @@
             <h1 class="titre">Contact</h1>
 
             <form action="https://formsubmit.co/agencelecrayondor@gmail.com" method="POST" class="formulaire">
-                <input type="text" name="prenom" id="prenom" class="champ" placeholder="Prénom (obligatoire)">
-                <input type="text" name="nom" id="nom" class="champ" placeholder="Nom (obligatoire)">
-                <input type="email" name="email" id="email" class="champ" placeholder="Adresse email (obligatoire)">
+                <input type="text" name="prenom" id="prenom" class="champ" placeholder="Prénom (obligatoire)" _replyto >
+                <input type="text" name="nom" id="nom" class="champ" placeholder="Nom (obligatoire)" _replyto>
+                <input type="email" name="email" id="email" class="champ" placeholder="Adresse email (obligatoire)" _replyto>
+                <input type="hidden" name="_captcha" value="false">
                 <textarea name="projet" id="projet" class="champ" cols="30" rows="10" placeholder="Décrivez votre projet et quelle services vous désirez pour celui-ci"></textarea>
                 <input type="submit" value="Envoyer" id="envoyer">
             </form>
