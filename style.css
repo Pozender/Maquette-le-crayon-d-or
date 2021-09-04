@@ -139,6 +139,7 @@ a{
     background-color: rgb(219, 218, 210);
     border-radius: 20px;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 80vh;
     padding: 3vh;
     justify-content: center;
@@ -146,11 +147,32 @@ a{
     margin-top: 10vh;
 }
 
+.likbuttonreturn{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 #revenirausite{
     border: none;
     border-radius: 5px;
-    padding: 3vh;
+    padding: 30px;
     background-color: rgb(248, 241, 114);
     color: rgb(255, 254, 249);
-    font-size: 15px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#revenirausite:hover{
+    background-color: rgb(252, 243, 78);
+}
+
+#thanktext{
+    margin-top: 0px;
+    font-size: 20px;
 }
