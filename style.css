@@ -271,5 +271,17 @@ a{
         width: 3vh;
         border-radius: 20px;
     }
+
+    #b1{
+        background-position-y: 60%;
+        background-position-x: 80%;
+        background-size: 500px;
+    }
+
+    .thanxblock{
+        width: 80%;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
     
 }
